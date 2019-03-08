@@ -118,7 +118,6 @@ export default {
                 async: true,
                 success: function(response) {
                     if (status == "blocked") {
-                        return;
                         window.location =
                             "https://app.resultmaps.com/communication/check_in/report";
                     }
